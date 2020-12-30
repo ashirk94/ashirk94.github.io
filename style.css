@@ -8,27 +8,11 @@ h1{
     margin-bottom: 100px;
     display: block;
 }
-p.main{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-ul.main{
-    margin-top: 50px;
+p{
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
-div.link_container1{
-    width: 40%;
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-div.link_container2{
-    width: 30%;
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 img.thumbnail {
     opacity: 0%;
     position: absolute;
@@ -72,7 +56,7 @@ nav ul li:hover ul{
     display:block;
 }
 nav ul li ul li{
-    width: 150px;
+    width: 250px;
     border-radius: 4px;
 }
 nav ul li ul li a{

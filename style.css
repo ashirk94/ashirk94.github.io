@@ -1,35 +1,33 @@
 body{
-    font-size:30px;
-    margin:auto;
-    text-align:center;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
 }
 h1{
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
 }
-p{
-    margin-top:50px;
-    margin-bottom:50px;
+p.main{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-ul{
-    margin-top:50px;
-    margin-bottom:50px;
+ul.main{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-li{
-    margin-top:10px;
-    margin-bottom:10px;
-}
+
 div.link_container1{
-    width:40%;
-    display:inline-block;
-    margin-top:50px;
-    margin-bottom:50px;
+    width: 40%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 div.link_container2{
-    width:30%;
-    display:inline-block;
-    margin-top:50px;
-    margin-bottom:50px;
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 img.thumbnail {
     opacity: 0%;
@@ -37,4 +35,49 @@ img.thumbnail {
     top: 0;
     left: 0;
     z-index: -1;
+}
+nav{
+    width: 100%;
+    height: 100px;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav p{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav ul li a{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:aquamarine;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display:block;
+}
+nav ul li ul li{
+    width: 150px;
+    border-radius: 4px;
+}
+nav ul li ul li a{
+    text-decoration: none;
+}
+nav ul li ul li a:hover{
+    background-color:aquamarine;
 }

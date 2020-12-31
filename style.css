@@ -1,5 +1,5 @@
 html{
-    background-image: url(blue_gradient1.jpg);
+    background-image: url(images/blue_gradient1.jpg);
     background: cover;
 }
 body{
@@ -8,12 +8,28 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.main_wrapper{
+div.title_wrapper{
+    height: 100px;
+    max-width: 1080px;
     margin: 0 auto;
-    width: 1080px;
+}
+div.main_wrapper{
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+}
+img.wrapped{
+    height: 200px;
+    width: 3000px;
+    margin: 0 0; 
+}
+div.image_wrapper{
+    height: 300px;
+    margin: 0 0;
+    background-image: url(images/codepic1.jpg);
+    background-size: 100%;
 }
 h1{
-    position: ;
     letter-spacing: 3px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -32,6 +48,7 @@ img.thumbnail {
     z-index: -1;
 }
 nav{
+    margin-top: 50px;
     font-size: 30px;
     width: 100%;
     height: 100px;

@@ -5,10 +5,15 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    margin: 100px;
+    margin: 0 auto;
     text-align: center;
 }
+.main_wrapper{
+    margin: 0 auto;
+    width: 1080px;
+}
 h1{
+    position: ;
     letter-spacing: 3px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -27,7 +32,6 @@ img.thumbnail {
     z-index: -1;
 }
 nav{
-    margin-left:100px;
     font-size: 30px;
     width: 100%;
     height: 100px;

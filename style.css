@@ -13,6 +13,11 @@ div.main_wrapper{
     max-width: 1080px;
     position: relative;
 }
+@media screen and (max-width: 800px){
+    .main_wrapper, .image_wrapper{
+        width: 100%;
+    }
+}
 div.image_wrapper{
     height: 300px;
     margin: 0 0;

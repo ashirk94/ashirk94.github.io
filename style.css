@@ -14,7 +14,7 @@ div.main_wrapper{
     position: relative;
 }
 @media screen and (max-width: 800px){
-    .main_wrapper, .image_wrapper{
+    .main_wrapper, .image_wrapper, img, nav{
         width: 100vw;
     }
 }

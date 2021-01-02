@@ -15,10 +15,7 @@ div.main_wrapper{
 }
 @media screen and (max-width: 800px){
     .main_wrapper, .image_wrapper{
-        width: 100%;
-    }
-    img{
-        display: none;
+        width: 100vw;
     }
 }
 div.image_wrapper{

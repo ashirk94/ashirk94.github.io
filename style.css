@@ -14,8 +14,8 @@ div.main_wrapper{
     position: relative;
 }
 @media screen and (max-width: 800px){
-    h1{
-        font-size: 25vh;
+    .image_wrapper{
+        display:none;
     }
 }
 div.image_wrapper{

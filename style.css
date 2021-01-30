@@ -35,7 +35,7 @@ h1.overlay{
 }
 @media screen and (max-width: 800px){
     html, body{
-        max-width: 800px;
+        width: 600px;
     }
     div.image_wrapper{
         max-height: 25vh;

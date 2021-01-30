@@ -36,10 +36,10 @@ h1.overlay{
 @media screen and (max-width: 800px){
     div.image_wrapper{
         max-height: 25vh;
-        width: 100vw;
+        min-width: 100vw;
     }
     h1.overlay{
-        font-size: 10% !important;
+        max-width: 100vw;
     }
 }
 p{

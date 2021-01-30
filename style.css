@@ -24,7 +24,6 @@ div.image_wrapper{
 }
 
 h1.overlay{
-    font-size: 80px;
     letter-spacing: 3px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -33,11 +32,17 @@ h1.overlay{
     padding-top: 125px;
     font-family: 'Merienda', cursive;
 }
+@media only screen and (min-width: 801px){
+    h1.overlay{
+        font-size: 80px;
+    }
+}
 @media only screen and (max-width: 800px){
     div.image_wrapper{
         max-height: 25vh;
+    }
+    h1.overlay{
         font-size: 10px;
-        font-family:sans-serif;
     }
 }
 p{

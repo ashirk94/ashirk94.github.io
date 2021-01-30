@@ -36,9 +36,6 @@ h1.overlay{
 @media only screen and (max-width: 800px){
     div.image_wrapper{
         max-height: 25vh;
-        min-width: 100vw;
-    }
-    h1.overlay{
         font-size: 10px;
         font-family:sans-serif;
     }

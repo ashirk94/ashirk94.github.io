@@ -33,7 +33,7 @@ h1.overlay{
     padding-top: 125px;
     font-family: 'Merienda', cursive;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and(max-width: 700px){
+@media screen and (-webkit-min-device-pixel-ratio: 2) and(max-width: 1440px){
     div.image_wrapper{
         max-height: 25vh;
         min-width: 100vw;

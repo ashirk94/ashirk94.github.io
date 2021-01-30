@@ -14,8 +14,8 @@ div.main_wrapper{
     position: relative;
 }
 @media screen and (max-width: 800px){
-    .main_wrapper, .image_wrapper, img, nav{
-        width: 100vw;
+    h1{
+        font-size: 25vh;
     }
 }
 div.image_wrapper{
@@ -27,7 +27,7 @@ div.image_wrapper{
     background-size: 100%;
 }
 h1{
-    font-size: 50px;
+    font-size: 100px;
     letter-spacing: 3px;
     margin-top: 100px;
     margin-bottom: 100px;

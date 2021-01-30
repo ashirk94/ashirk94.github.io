@@ -36,6 +36,7 @@ h1.overlay{
 @media screen and (max-width: 800px){
     div.image_wrapper{
         max-height: 25vh;
+        max-width: 100vh;
     }
     h1.overlay{
         font-size: 30px;

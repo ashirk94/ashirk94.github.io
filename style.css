@@ -34,12 +34,12 @@ h1.overlay{
     font-family: 'Merienda', cursive;
 }
 @media screen and (max-width: 800px){
-    html, body{
-        width: 600px;
-    }
     div.image_wrapper{
         max-height: 25vh;
         min-width: 100vw;
+    }
+    h1.overlay{
+        font-size: 5.0rem;
     }
 }
 p{

@@ -19,7 +19,8 @@ div.main_wrapper{
     }
 }
 div.image_wrapper{
-    height: 300px;
+    height: 50vh;
+    width: 100vw;
     margin: 0 0;
     background-image: url(images/codepic1.jpg);
     background-size: 100%;

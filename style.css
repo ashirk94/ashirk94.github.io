@@ -1,8 +1,8 @@
 html{
-    background-image: url("images/green_gradient1.jpg");
+    background: linear-gradient(to left,hsl(122, 70%, 60%),hsl(122, 70%, 80%));
 }
 body {
-  background-image: url("images/green_gradient1.jpg");
+  background: linear-gradient(to left,hsl(122, 70%, 60%),hsl(122, 70%, 80%));
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 0;

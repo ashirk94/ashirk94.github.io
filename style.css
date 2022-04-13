@@ -10,7 +10,7 @@ body {
 .banner-image {
         min-height: 300px;
 }
-.a, a:visited{
+a, a:visited{
     color:black;
 }
 a:hover {

@@ -10,7 +10,9 @@ body {
   margin: 0;
 }
 .banner-image {
-        min-height: 300px;
+        min-height: 5vh;
+        max-height: 600px;
+        transform: translateY(-7vh);
 }
 a, a:visited{
     color:black;
@@ -19,12 +21,13 @@ a:hover {
     color:rgba(14, 1, 1, 0.568);
 }
 .banner-text {
-    margin-top: 10rem;
   letter-spacing: 3px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
   font-family: "Merienda", cursive;
+  min-height: 5vh;
+  z-index: 1;
 }
 img{
     width: 100%;

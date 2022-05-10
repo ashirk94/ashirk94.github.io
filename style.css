@@ -1,19 +1,19 @@
-html{
-    background: linear-gradient(to left,hsl(122, 74%, 30%),hsl(213, 52%, 25%));
-}
-/* use styles from site.css in VS */
 body {
-    background: linear-gradient(to left,hsl(122, 74%, 30%),hsl(213, 52%, 25%));
+  background: linear-gradient(180deg, #16a45a, #0f39b6);
+  height: 100vh;
   font-family: Helvetica, sans-serif;
   text-align: center;
   margin: 0 0;
   white-space: nowrap;
 }
-a, a:visited{
-    color:black;
+p,
+li,
+a,
+a:visited {
+  color: rgba(255, 255, 255, 0.9);
 }
 a:hover {
-    color:rgba(14, 1, 1, 0.568);
+  color: rgba(14, 1, 1, 0.5);
 }
 .banner-text {
   letter-spacing: 3px;
@@ -30,31 +30,31 @@ a:hover {
   margin: auto;
 }
 .banner {
-    margin-top: calc(300px - 7vw);
-    position: relative;
-    width: 100%;
-    height: 25vw;
-    min-height: 200px;
-    background-image: url("./images/codepic1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  margin-top: calc(300px - 7vw);
+  position: relative;
+  width: 100%;
+  height: 25vw;
+  min-height: 200px;
+  background-image: url("./images/codepic1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .thumbnail {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0 0;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 0;
+}
 .nav-item {
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 nav ul li a {
   text-decoration: none;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 nav ul li a:hover {
   background-color: rgba(213, 226, 223, 0.1);

@@ -4,7 +4,7 @@ body {
   font-family: Helvetica, sans-serif;
   text-align: center;
   margin: 0 0;
-  background-repeat: no-repeat;
+  background: cover;
   max-width: 100%;
 }
 .main {
@@ -59,6 +59,10 @@ a:hover {
 }
 ul li {
   list-style-type: none;
+}
+ul li a {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .thumbnail {
   position: absolute;

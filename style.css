@@ -65,6 +65,7 @@ ul {
 }
 ul li {
   list-style-type: none;
+  overflow-wrap: normal;
 }
 .contact {
     margin-left: 20px;

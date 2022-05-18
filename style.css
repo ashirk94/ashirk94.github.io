@@ -1,11 +1,14 @@
 body {
   background: linear-gradient(180deg, #16a45a, #0f39b6);
-  height: 100vh;
+  height: 100%;
   font-family: Helvetica, sans-serif;
   text-align: center;
-  margin: 0 0;
-  background: cover;
-  max-width: 100%;
+  margin: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: content-box;
 }
 .main {
     position: relative;
@@ -57,6 +60,9 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+ul {
+    padding: 0;
+}
 ul li {
   list-style-type: none;
 }
@@ -71,8 +77,8 @@ ul li a {
   margin: 0 0;
 }
 .nav-item {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 nav ul li a {
   text-decoration: none;

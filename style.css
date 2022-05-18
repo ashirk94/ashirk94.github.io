@@ -49,6 +49,12 @@ a:hover {
   overflow-wrap: normal;
   line-height: 90px;
 }
+@media only screen and (max-width: 600px)  {
+    .banner-text {  
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+}
 .banner {
   margin-top: 100px;
   margin-bottom: 100px;

@@ -1,4 +1,4 @@
-body {
+body, html {
   background: linear-gradient(180deg, #16a45a, #0f39b6);
   height: 100%;
   font-family: Helvetica, sans-serif;
@@ -13,7 +13,7 @@ body {
 .main {
     position: relative;
     top: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 p, h1,
 li,
@@ -44,10 +44,10 @@ a:hover {
   font-family: "Merienda", cursive;
   z-index: 1;
   color: white;
-  font-size: 18vmin;
+  font-size: 16vmin;
   width: 100%;
   overflow-wrap: normal;
-  line-height: 90px;
+  line-height: 150px;
 }
 .banner {
     margin-top: 100px;
@@ -80,7 +80,7 @@ ul li {
   overflow-wrap: break-word;
 }
 .email {
-    font-size: 10vmin;
+    font-size: 8vmin;
 }
 .contact {
     margin-left: 20px;
